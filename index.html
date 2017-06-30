@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <style>
+    .align-spinner {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      padding: 15px;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+
+    .spinner {
+      width: 4em;
+      height: 4em;
+      background-color: #333;
+      margin: 100px auto;
+      -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+      animation: sk-rotateplane 1.2s infinite ease-in-out;
+    }
+
+    @-webkit-keyframes sk-rotateplane {
+      0% {
+        -webkit-transform: perspective(120px)
+      }
+      50% {
+        -webkit-transform: perspective(120px) rotateY(180deg)
+      }
+      100% {
+        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg)
+      }
+    }
+
+    @keyframes sk-rotateplane {
+      0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+      }
+      50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+      }
+      100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      }
+    }
+
+    .text-spinner {
+      text-align: center;
+    }
+  </style>
+  <meta charset="utf-8">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link href="styles.2521ad4636b7e3bf6274.bundle.css" rel="stylesheet"/></head>
+<body>
+<app-root>
+
+  <div class="spinner"></div>
+  <h2 class="text-spinner">One moment please... loading</h2>
+
+</app-root>
+<script type="text/javascript" src="inline.e78443b6c2bd21a455e3.bundle.js"></script><script type="text/javascript" src="polyfills.6f9a6b71e96c03e848dc.bundle.js"></script><script type="text/javascript" src="scripts.52d336b9cb981aa1c819.bundle.js"></script><script type="text/javascript" src="vendor.ac1e94cb9de094b66e1f.bundle.js"></script><script type="text/javascript" src="main.911f0f6bed0177104c69.bundle.js"></script></body>
+</html>

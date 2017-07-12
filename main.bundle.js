@@ -1948,14 +1948,6 @@ var APP_ROUTES = [
                 value: 'home',
             }
         }
-    }, {
-        path: '**',
-        component: __WEBPACK_IMPORTED_MODULE_0__index_page_index_page_component__["a" /* IndexPageComponent */],
-        data: {
-            animation: {
-                value: 'home',
-            }
-        }
     },
     {
         path: 'website-laten-maken',
@@ -2026,6 +2018,14 @@ var APP_ROUTES = [
         data: {
             animation: {
                 value: 'overview',
+            }
+        }
+    }, {
+        path: '**',
+        component: __WEBPACK_IMPORTED_MODULE_0__index_page_index_page_component__["a" /* IndexPageComponent */],
+        data: {
+            animation: {
+                value: 'home',
             }
         }
     }

@@ -68,11 +68,11 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 AppComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-root',
         template: __webpack_require__("../../../../../src/app/app.component.html"),
         styles: [__webpack_require__("../../../../../src/app/app.component.scss")],
-        encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["q" /* ViewEncapsulation */].None,
+        encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* ViewEncapsulation */].None,
         animations: [
             __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["a" /* trigger */])('routerAnimations', [
                 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["d" /* transition */])('overview => home', [
@@ -136,36 +136,35 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common__ = __webpack_require__("../../../common/@angular/common.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_flex_layout__ = __webpack_require__("../../../flex-layout/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__index_page_group_groups_service__ = __webpack_require__("../../../../../src/app/index-page/group/groups.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__index_page_group_group_component__ = __webpack_require__("../../../../../src/app/index-page/group/group.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__index_page_image_image_component__ = __webpack_require__("../../../../../src/app/index-page/image/image.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__index_page_index_page_component__ = __webpack_require__("../../../../../src/app/index-page/index-page.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__routes__ = __webpack_require__("../../../../../src/app/routes.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__index_page_preview_preview_component__ = __webpack_require__("../../../../../src/app/index-page/preview/preview.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__index_page_preview_preview_service__ = __webpack_require__("../../../../../src/app/index-page/preview/preview.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__website_page_website_page_component__ = __webpack_require__("../../../../../src/app/website-page/website-page.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__website_page_website_detail_website_detail_component__ = __webpack_require__("../../../../../src/app/website-page/website-detail/website-detail.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__index_page_image_for_preview_image_for_preview_component__ = __webpack_require__("../../../../../src/app/index-page/image-for-preview/image-for-preview.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__angular_material__ = __webpack_require__("../../../material/@angular/material.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__wie_zijn_wij_page_wie_zijn_wij_component__ = __webpack_require__("../../../../../src/app/wie-zijn-wij-page/wie-zijn-wij.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__wie_zijn_wij_page_wie_zijn_wij_detail_wie_zijn_wij_detail_component__ = __webpack_require__("../../../../../src/app/wie-zijn-wij-page/wie-zijn-wij-detail/wie-zijn-wij-detail.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__geschiedenis_page_geschiedenis_component__ = __webpack_require__("../../../../../src/app/geschiedenis-page/geschiedenis.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__geschiedenis_page_geschiedenis_detail_geschiedenis_detail_component__ = __webpack_require__("../../../../../src/app/geschiedenis-page/geschiedenis-detail/geschiedenis-detail.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__bedrijfs_overzicht_page_bedrijfs_overzicht_component__ = __webpack_require__("../../../../../src/app/bedrijfs-overzicht-page/bedrijfs-overzicht.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__bedrijfs_overzicht_page_bedrijfs_overzicht_detail_bedrijfs_overzicht_detail_component__ = __webpack_require__("../../../../../src/app/bedrijfs-overzicht-page/bedrijfs-overzicht-detail/bedrijfs-overzicht-detail.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__contact_page_contact_component__ = __webpack_require__("../../../../../src/app/contact-page/contact.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__contact_page_contact_detail_contact_detail_component__ = __webpack_require__("../../../../../src/app/contact-page/contact-detail/contact-detail.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__software_page_software_page_component__ = __webpack_require__("../../../../../src/app/software-page/software-page.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__software_page_software_detail_software_detail_component__ = __webpack_require__("../../../../../src/app/software-page/software-detail/software-detail.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__mobiele_page_mobiele_page_component__ = __webpack_require__("../../../../../src/app/mobiele-page/mobiele-page.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__mobiele_page_mobiele_detail_mobiele_detail_component__ = __webpack_require__("../../../../../src/app/mobiele-page/mobiele-detail/mobiele-detail.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__overige_page_overige_page_component__ = __webpack_require__("../../../../../src/app/overige-page/overige-page.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__overige_page_overige_detail_overige_detail_component__ = __webpack_require__("../../../../../src/app/overige-page/overige-detail/overige-detail.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__contact_page_contact_form_contact_form_component__ = __webpack_require__("../../../../../src/app/contact-page/contact-form/contact-form.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__contact_page_contact_form_api_go_message_service__ = __webpack_require__("../../../../../src/app/contact-page/contact-form/api-go-message.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_flex_layout__ = __webpack_require__("../../../flex-layout/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__index_page_group_groups_service__ = __webpack_require__("../../../../../src/app/index-page/group/groups.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__index_page_group_group_component__ = __webpack_require__("../../../../../src/app/index-page/group/group.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__index_page_image_image_component__ = __webpack_require__("../../../../../src/app/index-page/image/image.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__index_page_index_page_component__ = __webpack_require__("../../../../../src/app/index-page/index-page.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__routes__ = __webpack_require__("../../../../../src/app/routes.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__index_page_preview_preview_component__ = __webpack_require__("../../../../../src/app/index-page/preview/preview.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__index_page_preview_preview_service__ = __webpack_require__("../../../../../src/app/index-page/preview/preview.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__website_page_website_page_component__ = __webpack_require__("../../../../../src/app/website-page/website-page.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__website_page_website_detail_website_detail_component__ = __webpack_require__("../../../../../src/app/website-page/website-detail/website-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__index_page_image_for_preview_image_for_preview_component__ = __webpack_require__("../../../../../src/app/index-page/image-for-preview/image-for-preview.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__angular_material__ = __webpack_require__("../../../material/@angular/material.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__wie_zijn_wij_page_wie_zijn_wij_component__ = __webpack_require__("../../../../../src/app/wie-zijn-wij-page/wie-zijn-wij.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__wie_zijn_wij_page_wie_zijn_wij_detail_wie_zijn_wij_detail_component__ = __webpack_require__("../../../../../src/app/wie-zijn-wij-page/wie-zijn-wij-detail/wie-zijn-wij-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__geschiedenis_page_geschiedenis_component__ = __webpack_require__("../../../../../src/app/geschiedenis-page/geschiedenis.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__geschiedenis_page_geschiedenis_detail_geschiedenis_detail_component__ = __webpack_require__("../../../../../src/app/geschiedenis-page/geschiedenis-detail/geschiedenis-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__bedrijfs_overzicht_page_bedrijfs_overzicht_component__ = __webpack_require__("../../../../../src/app/bedrijfs-overzicht-page/bedrijfs-overzicht.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__bedrijfs_overzicht_page_bedrijfs_overzicht_detail_bedrijfs_overzicht_detail_component__ = __webpack_require__("../../../../../src/app/bedrijfs-overzicht-page/bedrijfs-overzicht-detail/bedrijfs-overzicht-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__contact_page_contact_component__ = __webpack_require__("../../../../../src/app/contact-page/contact.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__contact_page_contact_detail_contact_detail_component__ = __webpack_require__("../../../../../src/app/contact-page/contact-detail/contact-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__software_page_software_page_component__ = __webpack_require__("../../../../../src/app/software-page/software-page.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__software_page_software_detail_software_detail_component__ = __webpack_require__("../../../../../src/app/software-page/software-detail/software-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__mobiele_page_mobiele_page_component__ = __webpack_require__("../../../../../src/app/mobiele-page/mobiele-page.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__mobiele_page_mobiele_detail_mobiele_detail_component__ = __webpack_require__("../../../../../src/app/mobiele-page/mobiele-detail/mobiele-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__overige_page_overige_page_component__ = __webpack_require__("../../../../../src/app/overige-page/overige-page.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__overige_page_overige_detail_overige_detail_component__ = __webpack_require__("../../../../../src/app/overige-page/overige-detail/overige-detail.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__contact_page_contact_form_contact_form_component__ = __webpack_require__("../../../../../src/app/contact-page/contact-form/contact-form.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__contact_page_contact_form_api_go_message_service__ = __webpack_require__("../../../../../src/app/contact-page/contact-form/api-go-message.service.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -173,7 +172,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-
 
 
 
@@ -216,45 +214,45 @@ var AppModule = (function () {
 AppModule = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["b" /* NgModule */])({
         declarations: [
-            __WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_9__index_page_group_group_component__["a" /* GroupComponent */],
-            __WEBPACK_IMPORTED_MODULE_10__index_page_image_image_component__["a" /* ImageComponent */],
-            __WEBPACK_IMPORTED_MODULE_15__website_page_website_page_component__["a" /* WebsitePageComponent */],
-            __WEBPACK_IMPORTED_MODULE_16__website_page_website_detail_website_detail_component__["a" /* WebsiteDetailComponent */],
-            __WEBPACK_IMPORTED_MODULE_19__wie_zijn_wij_page_wie_zijn_wij_component__["a" /* WieZijnWijComponent */],
-            __WEBPACK_IMPORTED_MODULE_20__wie_zijn_wij_page_wie_zijn_wij_detail_wie_zijn_wij_detail_component__["a" /* WieZijnWijDetailComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__index_page_index_page_component__["a" /* IndexPageComponent */],
-            __WEBPACK_IMPORTED_MODULE_17__index_page_image_for_preview_image_for_preview_component__["a" /* ImageForPreviewComponent */],
-            __WEBPACK_IMPORTED_MODULE_13__index_page_preview_preview_component__["a" /* ImagePreviewComponent */],
-            __WEBPACK_IMPORTED_MODULE_21__geschiedenis_page_geschiedenis_component__["a" /* GeschiedenisComponent */],
-            __WEBPACK_IMPORTED_MODULE_22__geschiedenis_page_geschiedenis_detail_geschiedenis_detail_component__["a" /* GeschiedenisDetailComponent */],
-            __WEBPACK_IMPORTED_MODULE_23__bedrijfs_overzicht_page_bedrijfs_overzicht_component__["a" /* BedrijfsOverzichtComponent */],
-            __WEBPACK_IMPORTED_MODULE_24__bedrijfs_overzicht_page_bedrijfs_overzicht_detail_bedrijfs_overzicht_detail_component__["a" /* BedrijfsOverzichtDetailComponent */],
-            __WEBPACK_IMPORTED_MODULE_25__contact_page_contact_component__["a" /* ContactComponent */],
-            __WEBPACK_IMPORTED_MODULE_26__contact_page_contact_detail_contact_detail_component__["a" /* ContactDetailComponent */],
-            __WEBPACK_IMPORTED_MODULE_33__contact_page_contact_form_contact_form_component__["a" /* ContactFormComponent */],
-            __WEBPACK_IMPORTED_MODULE_27__software_page_software_page_component__["a" /* SoftwarePageComponent */],
-            __WEBPACK_IMPORTED_MODULE_28__software_page_software_detail_software_detail_component__["a" /* SoftwareDetailComponent */],
-            __WEBPACK_IMPORTED_MODULE_29__mobiele_page_mobiele_page_component__["a" /* MobielePageComponent */],
-            __WEBPACK_IMPORTED_MODULE_30__mobiele_page_mobiele_detail_mobiele_detail_component__["a" /* MobieleDetailComponent */],
-            __WEBPACK_IMPORTED_MODULE_31__overige_page_overige_page_component__["a" /* OverigePageComponent */],
-            __WEBPACK_IMPORTED_MODULE_32__overige_page_overige_detail_overige_detail_component__["a" /* OverigeDetailComponent */]
+            __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */],
+            __WEBPACK_IMPORTED_MODULE_8__index_page_group_group_component__["a" /* GroupComponent */],
+            __WEBPACK_IMPORTED_MODULE_9__index_page_image_image_component__["a" /* ImageComponent */],
+            __WEBPACK_IMPORTED_MODULE_14__website_page_website_page_component__["a" /* WebsitePageComponent */],
+            __WEBPACK_IMPORTED_MODULE_15__website_page_website_detail_website_detail_component__["a" /* WebsiteDetailComponent */],
+            __WEBPACK_IMPORTED_MODULE_18__wie_zijn_wij_page_wie_zijn_wij_component__["a" /* WieZijnWijComponent */],
+            __WEBPACK_IMPORTED_MODULE_19__wie_zijn_wij_page_wie_zijn_wij_detail_wie_zijn_wij_detail_component__["a" /* WieZijnWijDetailComponent */],
+            __WEBPACK_IMPORTED_MODULE_10__index_page_index_page_component__["a" /* IndexPageComponent */],
+            __WEBPACK_IMPORTED_MODULE_16__index_page_image_for_preview_image_for_preview_component__["a" /* ImageForPreviewComponent */],
+            __WEBPACK_IMPORTED_MODULE_12__index_page_preview_preview_component__["a" /* ImagePreviewComponent */],
+            __WEBPACK_IMPORTED_MODULE_20__geschiedenis_page_geschiedenis_component__["a" /* GeschiedenisComponent */],
+            __WEBPACK_IMPORTED_MODULE_21__geschiedenis_page_geschiedenis_detail_geschiedenis_detail_component__["a" /* GeschiedenisDetailComponent */],
+            __WEBPACK_IMPORTED_MODULE_22__bedrijfs_overzicht_page_bedrijfs_overzicht_component__["a" /* BedrijfsOverzichtComponent */],
+            __WEBPACK_IMPORTED_MODULE_23__bedrijfs_overzicht_page_bedrijfs_overzicht_detail_bedrijfs_overzicht_detail_component__["a" /* BedrijfsOverzichtDetailComponent */],
+            __WEBPACK_IMPORTED_MODULE_24__contact_page_contact_component__["a" /* ContactComponent */],
+            __WEBPACK_IMPORTED_MODULE_25__contact_page_contact_detail_contact_detail_component__["a" /* ContactDetailComponent */],
+            __WEBPACK_IMPORTED_MODULE_32__contact_page_contact_form_contact_form_component__["a" /* ContactFormComponent */],
+            __WEBPACK_IMPORTED_MODULE_26__software_page_software_page_component__["a" /* SoftwarePageComponent */],
+            __WEBPACK_IMPORTED_MODULE_27__software_page_software_detail_software_detail_component__["a" /* SoftwareDetailComponent */],
+            __WEBPACK_IMPORTED_MODULE_28__mobiele_page_mobiele_page_component__["a" /* MobielePageComponent */],
+            __WEBPACK_IMPORTED_MODULE_29__mobiele_page_mobiele_detail_mobiele_detail_component__["a" /* MobieleDetailComponent */],
+            __WEBPACK_IMPORTED_MODULE_30__overige_page_overige_page_component__["a" /* OverigePageComponent */],
+            __WEBPACK_IMPORTED_MODULE_31__overige_page_overige_detail_overige_detail_component__["a" /* OverigeDetailComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_2__angular_common__["a" /* CommonModule */],
+            __WEBPACK_IMPORTED_MODULE_11__routes__["a" /* AppRoutingModule */],
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_forms__["a" /* FormsModule */],
             __WEBPACK_IMPORTED_MODULE_3__angular_forms__["b" /* ReactiveFormsModule */],
             __WEBPACK_IMPORTED_MODULE_4__angular_http__["a" /* HttpModule */],
-            __WEBPACK_IMPORTED_MODULE_6__angular_flex_layout__["a" /* FlexLayoutModule */],
-            __WEBPACK_IMPORTED_MODULE_18__angular_material__["a" /* MdButtonModule */],
-            __WEBPACK_IMPORTED_MODULE_18__angular_material__["b" /* MdIconModule */],
-            __WEBPACK_IMPORTED_MODULE_18__angular_material__["c" /* MdCardModule */],
-            __WEBPACK_IMPORTED_MODULE_18__angular_material__["d" /* MdInputModule */],
-            __WEBPACK_IMPORTED_MODULE_5__angular_router__["a" /* RouterModule */].forRoot(__WEBPACK_IMPORTED_MODULE_12__routes__["a" /* APP_ROUTES */])
+            __WEBPACK_IMPORTED_MODULE_5__angular_flex_layout__["a" /* FlexLayoutModule */],
+            __WEBPACK_IMPORTED_MODULE_17__angular_material__["a" /* MdButtonModule */],
+            __WEBPACK_IMPORTED_MODULE_17__angular_material__["b" /* MdIconModule */],
+            __WEBPACK_IMPORTED_MODULE_17__angular_material__["c" /* MdCardModule */],
+            __WEBPACK_IMPORTED_MODULE_17__angular_material__["d" /* MdInputModule */]
         ],
-        providers: [__WEBPACK_IMPORTED_MODULE_7__index_page_group_groups_service__["a" /* GroupsService */], __WEBPACK_IMPORTED_MODULE_14__index_page_preview_preview_service__["a" /* PreviewService */], __WEBPACK_IMPORTED_MODULE_34__contact_page_contact_form_api_go_message_service__["a" /* ApiGoMessageService */]],
-        bootstrap: [__WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* AppComponent */]]
+        providers: [__WEBPACK_IMPORTED_MODULE_6__index_page_group_groups_service__["a" /* GroupsService */], __WEBPACK_IMPORTED_MODULE_13__index_page_preview_preview_service__["a" /* PreviewService */], __WEBPACK_IMPORTED_MODULE_33__contact_page_contact_form_api_go_message_service__["a" /* ApiGoMessageService */], { provide: __WEBPACK_IMPORTED_MODULE_2__angular_common__["b" /* LocationStrategy */], useClass: __WEBPACK_IMPORTED_MODULE_2__angular_common__["c" /* HashLocationStrategy */] }],
+        bootstrap: [__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
 
@@ -309,11 +307,11 @@ var BedrijfsOverzichtDetailComponent = (function () {
     return BedrijfsOverzichtDetailComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
     __metadata("design:type", Object)
 ], BedrijfsOverzichtDetailComponent.prototype, "info", void 0);
 BedrijfsOverzichtDetailComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'bedrijfs-overzicht',
         template: __webpack_require__("../../../../../src/app/bedrijfs-overzicht-page/bedrijfs-overzicht-detail/bedrijfs-overzicht-detail.component.html"),
         styles: [__webpack_require__("../../../../../src/app/bedrijfs-overzicht-page/bedrijfs-overzicht-detail/bedrijfs-overzicht-detail.component.scss")]
@@ -406,11 +404,11 @@ var BedrijfsOverzichtComponent = (function () {
     return BedrijfsOverzichtComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* HostBinding */])('@pageAnimation'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* HostBinding */])('@pageAnimation'),
     __metadata("design:type", Object)
 ], BedrijfsOverzichtComponent.prototype, "doAnimate", void 0);
 BedrijfsOverzichtComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-bedrijfs-overzicht-page',
         template: __webpack_require__("../../../../../src/app/bedrijfs-overzicht-page/bedrijfs-overzicht.component.html"),
         styles: [__webpack_require__("../../../../../src/app/bedrijfs-overzicht-page/bedrijfs-overzicht.component.scss")],
@@ -481,11 +479,11 @@ var ContactDetailComponent = (function () {
     return ContactDetailComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
     __metadata("design:type", Object)
 ], ContactDetailComponent.prototype, "info", void 0);
 ContactDetailComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'contact-detail',
         template: __webpack_require__("../../../../../src/app/contact-page/contact-detail/contact-detail.component.html"),
         styles: [__webpack_require__("../../../../../src/app/contact-page/contact-detail/contact-detail.component.scss")]
@@ -559,7 +557,7 @@ var ApiGoMessageService = (function () {
     return ApiGoMessageService;
 }());
 ApiGoMessageService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Injectable */])(),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* Http */]) === "function" && _a || Object])
 ], ApiGoMessageService);
 
@@ -647,7 +645,7 @@ var ContactFormComponent = (function () {
     return ContactFormComponent;
 }());
 ContactFormComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'contact-form',
         template: __webpack_require__("../../../../../src/app/contact-page/contact-form/contact-form.component.html"),
         styles: [__webpack_require__("../../../../../src/app/contact-page/contact-form/contact-form.component.scss")]
@@ -723,11 +721,11 @@ var ContactComponent = (function () {
     return ContactComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* HostBinding */])('@pageAnimation'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* HostBinding */])('@pageAnimation'),
     __metadata("design:type", Object)
 ], ContactComponent.prototype, "doAnimate", void 0);
 ContactComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-contact-page',
         template: __webpack_require__("../../../../../src/app/contact-page/contact.component.html"),
         styles: [__webpack_require__("../../../../../src/app/contact-page/contact.component.scss")],
@@ -794,11 +792,11 @@ var GeschiedenisDetailComponent = (function () {
     return GeschiedenisDetailComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
     __metadata("design:type", Object)
 ], GeschiedenisDetailComponent.prototype, "info", void 0);
 GeschiedenisDetailComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'geschiedenis',
         template: __webpack_require__("../../../../../src/app/geschiedenis-page/geschiedenis-detail/geschiedenis-detail.component.html"),
         styles: [__webpack_require__("../../../../../src/app/geschiedenis-page/geschiedenis-detail/geschiedenis-detail.component.scss")]
@@ -891,11 +889,11 @@ var GeschiedenisComponent = (function () {
     return GeschiedenisComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* HostBinding */])('@pageAnimation'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* HostBinding */])('@pageAnimation'),
     __metadata("design:type", Object)
 ], GeschiedenisComponent.prototype, "doAnimate", void 0);
 GeschiedenisComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-geschiedenis-page',
         template: __webpack_require__("../../../../../src/app/geschiedenis-page/geschiedenis.component.html"),
         styles: [__webpack_require__("../../../../../src/app/geschiedenis-page/geschiedenis.component.scss")],
@@ -972,11 +970,11 @@ var GroupComponent = (function () {
     return GroupComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
     __metadata("design:type", Object)
 ], GroupComponent.prototype, "group", void 0);
 GroupComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-group',
         template: __webpack_require__("../../../../../src/app/index-page/group/group.component.html"),
         styles: [__webpack_require__("../../../../../src/app/index-page/group/group.component.scss")]
@@ -1091,7 +1089,7 @@ var GroupsService = (function () {
     return GroupsService;
 }());
 GroupsService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])()
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Injectable */])()
 ], GroupsService);
 
 //# sourceMappingURL=groups.service.js.map
@@ -1146,11 +1144,11 @@ var ImageForPreviewComponent = (function () {
     return ImageForPreviewComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])('image'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])('image'),
     __metadata("design:type", Object)
 ], ImageForPreviewComponent.prototype, "image", void 0);
 ImageForPreviewComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-image-for-preview',
         template: __webpack_require__("../../../../../src/app/index-page/image-for-preview/image-for-preview.component.html"),
         styles: [__webpack_require__("../../../../../src/app/index-page/image-for-preview/image-for-preview.component.scss")]
@@ -1210,11 +1208,11 @@ var ImageComponent = (function () {
     return ImageComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])('image'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])('image'),
     __metadata("design:type", Object)
 ], ImageComponent.prototype, "image", void 0);
 ImageComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-image',
         template: __webpack_require__("../../../../../src/app/index-page/image/image.component.html"),
         styles: [__webpack_require__("../../../../../src/app/index-page/image/image.component.scss")]
@@ -1289,11 +1287,11 @@ var IndexPageComponent = (function () {
     return IndexPageComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_2" /* HostBinding */])('@pageAnimation'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_1" /* HostBinding */])('@pageAnimation'),
     __metadata("design:type", Object)
 ], IndexPageComponent.prototype, "animatePage", void 0);
 IndexPageComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_3" /* Component */])({
         selector: 'app-index-page',
         template: __webpack_require__("../../../../../src/app/index-page/index-page.component.html"),
         styles: [__webpack_require__("../../../../../src/app/index-page/index-page.component.scss")],
@@ -1371,7 +1369,7 @@ var ImagePreviewComponent = (function () {
     function ImagePreviewComponent(_previewService) {
         var _this = this;
         this._previewService = _previewService;
-        this.closeNotify = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["F" /* EventEmitter */]();
+        this.closeNotify = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* EventEmitter */]();
         this.activeImages = [];
         this.count = 0;
         _previewService.onOtherPreviewOpen(this, function () { return _this.close(); });
@@ -1394,20 +1392,20 @@ var ImagePreviewComponent = (function () {
     return ImagePreviewComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_4" /* Output */])('close'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_0" /* Output */])('close'),
     __metadata("design:type", Object)
 ], ImagePreviewComponent.prototype, "closeNotify", void 0);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])('image'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])('image'),
     __metadata("design:type", Object),
     __metadata("design:paramtypes", [Object])
 ], ImagePreviewComponent.prototype, "image", null);
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* HostBinding */])('@preview'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* HostBinding */])('@preview'),
     __metadata("design:type", Number)
 ], ImagePreviewComponent.prototype, "count", void 0);
 ImagePreviewComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-image-preview',
         template: __webpack_require__("../../../../../src/app/index-page/preview/preview.component.html"),
         styles: [__webpack_require__("../../../../../src/app/index-page/preview/preview.component.scss")],
@@ -1526,7 +1524,7 @@ var PreviewService = (function () {
     return PreviewService;
 }());
 PreviewService = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["c" /* Injectable */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["e" /* Injectable */])(),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__group_groups_service__["a" /* GroupsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__group_groups_service__["a" /* GroupsService */]) === "function" && _a || Object])
 ], PreviewService);
 
@@ -1582,11 +1580,11 @@ var MobieleDetailComponent = (function () {
     return MobieleDetailComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
     __metadata("design:type", Object)
 ], MobieleDetailComponent.prototype, "info", void 0);
 MobieleDetailComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'mobiele',
         template: __webpack_require__("../../../../../src/app/mobiele-page/mobiele-detail/mobiele-detail.component.html"),
         styles: [__webpack_require__("../../../../../src/app/mobiele-page/mobiele-detail/mobiele-detail.component.scss")]
@@ -1712,11 +1710,11 @@ var MobielePageComponent = (function () {
     return MobielePageComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* HostBinding */])('@pageAnimation'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* HostBinding */])('@pageAnimation'),
     __metadata("design:type", Object)
 ], MobielePageComponent.prototype, "doAnimate", void 0);
 MobielePageComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-mobiele-page',
         template: __webpack_require__("../../../../../src/app/mobiele-page/mobiele-page.component.html"),
         styles: [__webpack_require__("../../../../../src/app/mobiele-page/mobiele-page.component.scss")],
@@ -1783,11 +1781,11 @@ var OverigeDetailComponent = (function () {
     return OverigeDetailComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
     __metadata("design:type", Object)
 ], OverigeDetailComponent.prototype, "info", void 0);
 OverigeDetailComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'overige',
         template: __webpack_require__("../../../../../src/app/overige-page/overige-detail/overige-detail.component.html"),
         styles: [__webpack_require__("../../../../../src/app/overige-page/overige-detail/overige-detail.component.scss")]
@@ -1892,11 +1890,11 @@ var OverigePageComponent = (function () {
     return OverigePageComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* HostBinding */])('@pageAnimation'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* HostBinding */])('@pageAnimation'),
     __metadata("design:type", Object)
 ], OverigePageComponent.prototype, "doAnimate", void 0);
 OverigePageComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-overige-page',
         template: __webpack_require__("../../../../../src/app/overige-page/overige-page.component.html"),
         styles: [__webpack_require__("../../../../../src/app/overige-page/overige-page.component.scss")],
@@ -1929,7 +1927,15 @@ var _a, _b;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__software_page_software_page_component__ = __webpack_require__("../../../../../src/app/software-page/software-page.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__mobiele_page_mobiele_page_component__ = __webpack_require__("../../../../../src/app/mobiele-page/mobiele-page.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__overige_page_overige_page_component__ = __webpack_require__("../../../../../src/app/overige-page/overige-page.component.ts");
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return APP_ROUTES; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
 
 
 
@@ -1939,7 +1945,9 @@ var _a, _b;
 
 
 
-var APP_ROUTES = [
+
+
+var routes = [
     {
         path: '',
         component: __WEBPACK_IMPORTED_MODULE_0__index_page_index_page_component__["a" /* IndexPageComponent */],
@@ -2030,6 +2038,18 @@ var APP_ROUTES = [
         }
     }
 ];
+var AppRoutingModule = (function () {
+    function AppRoutingModule() {
+    }
+    return AppRoutingModule;
+}());
+AppRoutingModule = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_10__angular_core__["b" /* NgModule */])({
+        imports: [__WEBPACK_IMPORTED_MODULE_9__angular_router__["a" /* RouterModule */].forRoot(routes)],
+        exports: [__WEBPACK_IMPORTED_MODULE_9__angular_router__["a" /* RouterModule */]]
+    })
+], AppRoutingModule);
+
 //# sourceMappingURL=routes.js.map
 
 /***/ }),
@@ -2081,11 +2101,11 @@ var SoftwareDetailComponent = (function () {
     return SoftwareDetailComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
     __metadata("design:type", Object)
 ], SoftwareDetailComponent.prototype, "info", void 0);
 SoftwareDetailComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'software',
         template: __webpack_require__("../../../../../src/app/software-page/software-detail/software-detail.component.html"),
         styles: [__webpack_require__("../../../../../src/app/software-page/software-detail/software-detail.component.scss")]
@@ -2211,11 +2231,11 @@ var SoftwarePageComponent = (function () {
     return SoftwarePageComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* HostBinding */])('@pageAnimation'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* HostBinding */])('@pageAnimation'),
     __metadata("design:type", Object)
 ], SoftwarePageComponent.prototype, "doAnimate", void 0);
 SoftwarePageComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-software-page',
         template: __webpack_require__("../../../../../src/app/software-page/software-page.component.html"),
         styles: [__webpack_require__("../../../../../src/app/software-page/software-page.component.scss")],
@@ -2282,11 +2302,11 @@ var WebsiteDetailComponent = (function () {
     return WebsiteDetailComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
     __metadata("design:type", Object)
 ], WebsiteDetailComponent.prototype, "info", void 0);
 WebsiteDetailComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'contributor',
         template: __webpack_require__("../../../../../src/app/website-page/website-detail/website-detail.component.html"),
         styles: [__webpack_require__("../../../../../src/app/website-page/website-detail/website-detail.component.scss")]
@@ -2412,11 +2432,11 @@ var WebsitePageComponent = (function () {
     return WebsitePageComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* HostBinding */])('@pageAnimation'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* HostBinding */])('@pageAnimation'),
     __metadata("design:type", Object)
 ], WebsitePageComponent.prototype, "doAnimate", void 0);
 WebsitePageComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-website-page',
         template: __webpack_require__("../../../../../src/app/website-page/website-page.component.html"),
         styles: [__webpack_require__("../../../../../src/app/website-page/website-page.component.scss")],
@@ -2483,11 +2503,11 @@ var WieZijnWijDetailComponent = (function () {
     return WieZijnWijDetailComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["O" /* Input */])(),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["p" /* Input */])(),
     __metadata("design:type", Object)
 ], WieZijnWijDetailComponent.prototype, "info", void 0);
 WieZijnWijDetailComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'wie-zijn-wij',
         template: __webpack_require__("../../../../../src/app/wie-zijn-wij-page/wie-zijn-wij-detail/wie-zijn-wij-detail.component.html"),
         styles: [__webpack_require__("../../../../../src/app/wie-zijn-wij-page/wie-zijn-wij-detail/wie-zijn-wij-detail.component.scss")]
@@ -2580,11 +2600,11 @@ var WieZijnWijComponent = (function () {
     return WieZijnWijComponent;
 }());
 __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* HostBinding */])('@pageAnimation'),
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_1" /* HostBinding */])('@pageAnimation'),
     __metadata("design:type", Object)
 ], WieZijnWijComponent.prototype, "doAnimate", void 0);
 WieZijnWijComponent = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_11" /* Component */])({
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* Component */])({
         selector: 'app-wie-zijn-wij-page',
         template: __webpack_require__("../../../../../src/app/wie-zijn-wij-page/wie-zijn-wij.component.html"),
         styles: [__webpack_require__("../../../../../src/app/wie-zijn-wij-page/wie-zijn-wij.component.scss")],
@@ -2609,14 +2629,14 @@ var _a, _b;
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
-// The file contents for the current environment will overwrite these during build.
-// The build system defaults to the dev environment which uses `environment.ts`, but if you do
-// `ng build --env=prod` then `environment.prod.ts` will be used instead.
-// The list of which env maps to which file can be found in `.angular-cli.json`.
-// The file contents for the current environment will overwrite these during build.
-var environment = {
-    production: false,
-    slack_url: 'http://XXXX:8080/form'
+/**
+ * Created by R Bleyenberg on 7/12/2017.
+ */
+/**
+ * Created by R Bleyenberg on 7/12/2017.
+ */ var environment = {
+    production: true,
+    slack_url: 'http://stib-design.nl:4201/form'
 };
 //# sourceMappingURL=environment.js.map
 
